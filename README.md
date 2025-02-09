@@ -11,3 +11,7 @@ Cybersecurity and data privacy - Spring 2025
 1.2.2025, 4h, Cisco modules, Learning
 
 7.2.2025, 2h, Portswigger, Labs
+
+8.2.2025, 3h, Portswigger, Labs
+
+9.2.2025, 2h, Portswigger, Labs
