@@ -4,7 +4,7 @@ Cybersecurity and data privacy - Spring 2025
 
 17.1.2025, 2h, Kick-off lecture, Learning
 
-23.1.2025, 2h, Kick-off lecture, Learning
+23.1.2025, 2h, Lecture, Learning
 
 31.1.2025, 3h, Cisco modules, Learning
 
@@ -15,3 +15,7 @@ Cybersecurity and data privacy - Spring 2025
 8.2.2025, 3h, Portswigger, Labs
 
 9.2.2025, 2h, Portswigger, Labs
+
+14.2.2025, 1h, Lecture, Learning
+
+17.2.2025, 4h, Project, Phase 1
