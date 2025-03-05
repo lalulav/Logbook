@@ -11,6 +11,7 @@ Penetration Testing Phase 1 testaus, jonka tarkoituksena on tehdä penetraatiote
 Testaus tapahtui Virtuaalikone ympäristössä Oracle VirtualBox ohjelmalla, johon asensin Kali Linux käyttöjärjestelmän. Ajankohta testaukseen tapahtui 17-19.2.2025. 
 
 **Päivitetty 5.3.2025 Phase 1 Ver.2**
+Toinen testaus tapahtui 5.3.2025 ja tässä testauksessa toteutettiin jatko testauksia päivitetyille nettisivuille. 
 
 ## 2. Yhteenveto:
 
@@ -23,6 +24,9 @@ Testaus tapahtui Virtuaalikone ympäristössä Oracle VirtualBox ohjelmalla, joh
 -Format String Errorin saa korjattua kirjoittamalla taustaohjelman uudelleen poistamalla huonot merkkijonot oikein. Tämä vaatii taustaohjelman uudelleen kääntämisen.
 
 Ensimmäisillä testauksilla kirjautumissivuilta löytyi heti jo useita uhkia. Muun muassa uhkia oli sivujen erittäin heikkojen salasanojen ja käyttäjätunnuksien hyväksyminen. 
+
+**Updated**
+Uudemmalla testauksella tuli vastaan yksi suurempi uhka (Keltainen) ja informatiivisia huomioita rekisteröinti sivusta tuli heti selväksi.
 
 ## 3. Löydökset ja löydöksien kategoriointi:
 
