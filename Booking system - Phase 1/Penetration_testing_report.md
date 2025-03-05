@@ -10,16 +10,17 @@ Penetration Testing Phase 1 testaus, jonka tarkoituksena on tehdä penetraatiote
 
 Testaus tapahtui Virtuaalikone ympäristössä Oracle VirtualBox ohjelmalla, johon asensin Kali Linux käyttöjärjestelmän. Ajankohta testaukseen tapahtui 17-19.2.2025. 
 
+**Päivitetty 5.3.2025 Phase 1 Ver.2**
 
 ## 2. Yhteenveto:
 
-Kolme suurinta kohtaa, joihin pitää heti kiinnittää huomio, jotka ilmeentyivät penetraatiotestauksessa on kriittiset haavoituvuudet joita löytyi kaksi kappaletta Path Traversal, SQL Injection ja Format String Error.
+-Kolme suurinta kohtaa, joihin pitää heti kiinnittää huomio, jotka ilmeentyivät penetraatiotestauksessa on kriittiset haavoituvuudet joita löytyi kaksi kappaletta Path Traversal, SQL Injection ja Format String Error.
 
-Path traversaliin voi käyttää sallittujen syötteiden luetteloa, joka on tiukasti vaatimusten mukainen. Hylkää kaikki syöttötiedot, jotka eivät täytä vaatimuksia, tai muunna ne sellaiseksi, joka vastaa niitä. Älä luota pelkästään haitallisten tai väärin muotoiltujen syötteiden etsimiseen (eli älä luota estolistaan). Kieltoluettelot voivat kuitenkin olla hyödyllisiä mahdollisten hyökkäysten havaitsemisessa tai sen määrittämisessä, mitkä syötteet ovat niin vääriä, että ne pitäisi hylätä suoraan.
+-Path traversaliin voi käyttää sallittujen syötteiden luetteloa, joka on tiukasti vaatimusten mukainen. Hylkää kaikki syöttötiedot, jotka eivät täytä vaatimuksia, tai muunna ne sellaiseksi, joka vastaa niitä. Älä luota pelkästään haitallisten tai väärin muotoiltujen syötteiden etsimiseen (eli älä luota estolistaan). Kieltoluettelot voivat kuitenkin olla hyödyllisiä mahdollisten hyökkäysten havaitsemisessa tai sen määrittämisessä, mitkä syötteet ovat niin vääriä, että ne pitäisi hylätä suoraan.
 
-SQL Injektioiden estämiseen voidaan olla luottamatta asiakas syötteeseen, vaikka asiakaspuolen validointi olisi käytössä. Kaikki kirjoitus tulisi tarkastaa palvelinpuolella. 
+-SQL Injektioiden estämiseen voidaan olla luottamatta asiakas syötteeseen, vaikka asiakaspuolen validointi olisi käytössä. Kaikki kirjoitus tulisi tarkastaa palvelinpuolella. 
 
-Format String Errorin saa korjattua kirjoittamalla taustaohjelman uudelleen poistamalla huonot merkkijonot oikein. Tämä vaatii taustaohjelman uudelleen kääntämisen.
+-Format String Errorin saa korjattua kirjoittamalla taustaohjelman uudelleen poistamalla huonot merkkijonot oikein. Tämä vaatii taustaohjelman uudelleen kääntämisen.
 
 Ensimmäisillä testauksilla kirjautumissivuilta löytyi heti jo useita uhkia. Muun muassa uhkia oli sivujen erittäin heikkojen salasanojen ja käyttäjätunnuksien hyväksyminen. 
 
@@ -43,6 +44,7 @@ Vihreä (Matala): Haavoittavuuksia, joita vihreältä alueelta löysin, oli kaks
 
 Error Disclosure viittaa sivun sisältämään virheilmoitukseen, joka voi paljastaa arkaluontoi-sia tietoja, kuten käsittelemättömän poikkeuksen aiheuttaneen tiedoston sijainnin. Näitä tie-toja voidaan käyttää uusien hyökkäysten käynnistämiseen verkkosovellusta vastaan. Varoi-tus voi olla virheellinen, jos virheilmoitus löytyy dokumentaatiosivulta.
 
+** Updated **
 
 ## 4. Appendices:
 - 2025-02-19-BookingSystemPhase1-Report1.md
