@@ -25,3 +25,5 @@ Cybersecurity and data privacy - Spring 2025
 19.2.2025, 3h, Project, Phase 1
 
 5.3.2025, 3h, Project, Phase 1 & Part 2
+
+15.3.2025, 4h, Project, Phase 2 part 1
