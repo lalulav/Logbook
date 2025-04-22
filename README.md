@@ -31,3 +31,5 @@ Cybersecurity and data privacy - Spring 2025
 22.3.2025, 6h, Project, Phase 2 part 2
 
 4.4.2025, 3h, Project, Phase 3 (not completed)
+
+22.4.2025, 2h, Final assignment
